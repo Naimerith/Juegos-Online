@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color:rgb(231, 147, 21);
+    font-family: 'DynaPuff', cursive;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    color:rgb(231, 235, 15);
+    font-family: 'DynaPuff', cursive;
+}
+
+p , h5{
+    text-align: justify;
+    color: rgb(231, 235, 15);
+    padding: 0 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+span{
+    color:rgb(243, 242, 242);
+}
+
+img, button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+button{
+    margin-bottom: 5px;
+    position: relative; 
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:rgb(242, 245, 80);
+    border: none;
+} 
+button:hover{
+    background-color:rgb(231, 147, 21);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+}
+
+a:hover{
+    color:rgb(243, 242, 242);
+}
+
+input{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+section{
+    cursor: pointer;
+    opacity: 0;
+} 
+
+
+#tableGames{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.containerGame{
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.subtittle{
+    margin: 0;
+    font-style: oblique;
+    color: white;
+}
+
+.filter{
+    /* display: none; */
+    visibility: hidden;
+    opacity: 0;
+    order: 1;
+}
+
+
+
+
+
